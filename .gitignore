@@ -10,3 +10,4 @@ npm-debug.log*
 .vitest/
 .idea/
 .vscode/
+docs/

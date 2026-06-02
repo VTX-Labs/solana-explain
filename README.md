@@ -13,6 +13,7 @@
 
 [![npm](https://img.shields.io/npm/v/@vtx-labs/solana-explain?color=3182ce&label=npm&style=flat-square)](https://www.npmjs.com/package/@vtx-labs/solana-explain)
 [![CI](https://img.shields.io/github/actions/workflow/status/VTX-Labs/solana-explain/ci.yml?branch=main&color=3182ce&label=CI&style=flat-square)](https://github.com/VTX-Labs/solana-explain/actions)
+[![Docs](https://img.shields.io/badge/docs-API_reference-3182ce?style=flat-square)](https://vtx-labs.github.io/solana-explain/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3182ce.svg?style=flat-square)](./LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A518-3182ce?style=flat-square)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3182ce?style=flat-square)](https://www.typescriptlang.org)
