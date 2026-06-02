@@ -30,8 +30,8 @@
     "node": ">=18"
   },
   "bin": {
-    "solana-explain": "./dist/cli/index.js",
-    "sx": "./dist/cli/index.js"
+    "solana-explain": "dist/cli/index.js",
+    "sx": "dist/cli/index.js"
   },
   "exports": {
     ".": {
