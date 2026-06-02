@@ -1,0 +1,13 @@
+# We rely on the "files" field in package.json as the source of truth.
+# This file is a belt-and-suspenders guard for anything that slips through.
+src/
+test/
+.github/
+*.config.ts
+tsconfig.json
+vitest.config.ts
+tsup.config.ts
+coverage/
+.editorconfig
+.gitignore
+*.tsbuildinfo

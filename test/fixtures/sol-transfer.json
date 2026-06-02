@@ -1,0 +1,33 @@
+{
+  "slot": 287330114,
+  "blockTime": 1717070520,
+  "version": "legacy",
+  "meta": {
+    "err": null,
+    "fee": 5000,
+    "preBalances": [
+      2000000000,
+      0,
+      1
+    ],
+    "postBalances": [
+      999995000,
+      1000000000,
+      1
+    ],
+    "preTokenBalances": [],
+    "postTokenBalances": [],
+    "innerInstructions": [],
+    "logMessages": [],
+    "computeUnitsConsumed": 150
+  },
+  "transaction": {
+    "signatures": [
+      "2AXDGYSE4f2sz7tvMMzyHvUfcoJmxudvdhBcmiUSo6ijwfYmfZYsKRxboQMPh3R4kUhXRVdtSXFXMheka4Rc4P2"
+    ],
+    "message": [
+      "AQABAwImLTQ7QklQV15lbHN6gYiPlp2kq7K5wMfO1dzj6vH4A0VMU1phaG92fYSLkpmgp661vMPK0djf5u30+wIJEBcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQICAAEMAgAAAADKmjsAAAAA",
+      "base64"
+    ]
+  }
+}

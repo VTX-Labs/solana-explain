@@ -1,0 +1,39 @@
+{
+  "slot": 287330200,
+  "blockTime": 1717070600,
+  "version": 0,
+  "meta": {
+    "err": null,
+    "fee": 5000,
+    "preBalances": [
+      2000000000,
+      0
+    ],
+    "postBalances": [
+      1999995000,
+      1
+    ],
+    "preTokenBalances": [],
+    "postTokenBalances": [],
+    "innerInstructions": [],
+    "loadedAddresses": {
+      "writable": [
+        "4SQTpB1dHjS6zmBWypd3jiC5tNpdFTpTPWejcBZSN8YE"
+      ],
+      "readonly": [
+        "4WnPregQotni4pL2Ewk8u3ksh1Pjww3gC94SK7e9uKdP"
+      ]
+    },
+    "computeUnitsConsumed": 200
+  },
+  "transaction": {
+    "signatures": [
+      "2AXDGYSE4f2sz7tvMMzyHvUfcoJmxudvdhBcmiUSo6ijwfYmfZYsKRxboQMPh3R4kUhXRVdtSXFXMheka4Rc4P2"
+    ],
+    "message": [
+      "AQABAwImLTQ7QklQV15lbHN6gYiPlp2kq7K5wMfO1dzj6vH4MxUcIyoxOD9GTVRbYmlwd36FjJOaoaivtr3Ey9LZ4OcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQICAAEMAgAAAAEAAAAAAAAA",
+      "base64"
+    ]
+  },
+  "_note": "Reference v0 payload; loadedAddresses populated by the node resolves LUT writable/readonly keys."
+}

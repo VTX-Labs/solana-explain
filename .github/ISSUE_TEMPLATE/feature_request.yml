@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest an improvement or new capability for solana-explain.
+title: "[Feature]: "
+labels: ["enhancement", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Lead with the problem you're solving. New program decoders and clearer summaries are especially welcome.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What can't you explain today, or what's unclear in the output?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: |
+        What would you like to happen? If this is a new program decoder, link the
+        program ID and any docs/IDL, and an example transaction signature.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: This keeps the library dependency-light (the truth is the balance diff; decoding adds names).
+          required: true

@@ -1,0 +1,83 @@
+{
+  "name": "@vtx-labs/solana-explain",
+  "version": "0.1.0",
+  "description": "Turn any Solana transaction signature, raw/base64 transaction, or unsigned instruction set into a plain-English \"what this actually does\" report — net balance deltas, transfers, account creations, approvals, and program invocations. No IDLs required.",
+  "type": "module",
+  "license": "MIT",
+  "author": "VTX Labs (https://vtxlabs.dev)",
+  "homepage": "https://github.com/VTX-Labs/solana-explain#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VTX-Labs/solana-explain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VTX-Labs/solana-explain/issues"
+  },
+  "keywords": [
+    "solana",
+    "transaction",
+    "explain",
+    "decode",
+    "spl-token",
+    "token-2022",
+    "simulate",
+    "balance-diff",
+    "web3",
+    "cli",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "solana-explain": "./dist/cli/index.js",
+    "sx": "./dist/cli/index.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./programs": {
+      "types": "./dist/programs.d.ts",
+      "import": "./dist/programs.js"
+    },
+    "./render": {
+      "types": "./dist/render.d.ts",
+      "import": "./dist/render.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx src/cli/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "pnpm typecheck && pnpm test && pnpm build"
+  },
+  "dependencies": {
+    "bs58": "^6.0.0"
+  },
+  "peerDependencies": {
+    "@solana/web3.js": "^1.95.0 || ^2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@solana/web3.js": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsup": "^8.2.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "packageManager": "pnpm@10.6.5"
+}
