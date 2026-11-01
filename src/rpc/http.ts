@@ -1,5 +1,5 @@
 /**
- * `createHttpRpc`: zero-dep JSON-RPC over the global `fetch` (Node 18+).
+ * `createHttpRpc`: zero-dep JSON-RPC over the global `fetch` (Node 20+).
  *
  * - Per-call timeout via AbortController, composed with the caller's signal.
  * - Single jittered-backoff retry on 429/5xx.
@@ -99,7 +99,7 @@ export function createHttpRpc(url: string, opts: HttpRpcOptions = {}): RpcClient
   if (typeof fetchImpl !== 'function') {
     throw new RpcError(
       'RPC_HTTP',
-      'global fetch is not available; use Node 18+ or pass a fetch implementation.',
+      'global fetch is not available; use Node 20+ or pass a fetch implementation.',
     );
   }
   let idCounter = 1;

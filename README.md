@@ -39,7 +39,7 @@ npm install @vtx-labs/solana-explain
 npx @vtx-labs/solana-explain <signature> --rpc https://your-rpc
 ```
 
-> Requires Node 18+ (uses the global `fetch`).
+> Requires Node 20+ (uses the global `fetch`).
 
 ---
 

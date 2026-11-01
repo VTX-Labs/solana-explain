@@ -8,7 +8,7 @@ export default defineConfig({
     'cli/index': 'src/cli/index.ts',
   },
   format: ['esm'],
-  target: 'node18',
+  target: 'node20',
   platform: 'node',
   dts: true,
   clean: true,
